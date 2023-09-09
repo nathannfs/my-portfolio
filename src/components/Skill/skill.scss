@@ -15,17 +15,16 @@
     border: 1px solid var(--text-secondary);
 
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
 
     .experience-measure {
       display: flex;
-      justify-content: center;
       align-items: center;
-      z-index: 999;
+      justify-content: center;
 
-      border-radius: 24px;
       height: 30px;
+      border-radius: 24px;
       border: 1px solid linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
       background: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
 
@@ -34,15 +33,27 @@
       text-align: center;
       font-size: 12px;
 
+      &.measure-61 {
+        width: 16.6%;
+      }
+
       &.measure-1 {
         width: 33%;
       }
 
-      &.measure-2 {
-        width: 66%;
+      &.measure-16 {
+        width: 48%;
       }
 
-      &.measure-3 {
+      &.measure-2 {
+        width: 64%;
+      }
+
+      &.measure-26 {
+        width: 80%;
+      }
+
+      &.measure-36 {
         width: 100%;
       }
     }

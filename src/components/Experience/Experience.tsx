@@ -16,10 +16,10 @@ export function Experience() {
       </p>
 
       <div className='experience-time'>
-        <Skill image='/react.png' measure={1} years='1 years' />
-        <Skill image='/ts.png' measure={1} years='1 years' />
-        <Skill image='/js.png' measure={1} years='1 years' />
-        <Skill image='/node.png' measure={1} years='1 years' />
+        <Skill image='/react.png' measure={1} years='1 year' />
+        <Skill image='/ts.png' measure={61} years='6 mont.' />
+        <Skill image='/node.png' measure={1} years='1 year' />
+        <Skill image='/js.png' measure={16} years='1 year and half' />
       </div>
     </div>
   );

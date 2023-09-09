@@ -16,13 +16,16 @@ export function Info() {
         <SectionTitle text='Education' />
 
         <Education
-          degree='Software Engineer - Unicesumar EAD'
-          state='Bacharelors Dregree - PURSUING'
+          degree='Software Engineer'
+          local='Unicesumar EAD'
+          level='Bachelor Dregree'
+          state='PURSUING'
         />
-
         <Education
-          degree='Computer Engineer - UNIVESP'
-          state='Bacharelors Dregree - PURSUING'
+          degree='Computer Engineer'
+          local='UNIVESP'
+          level='Bachelor Dregree'
+          state='PURSUING'
         />
       </div>
     </div>

@@ -1,3 +1,5 @@
+import { Education } from '../Education/Education';
+import { Languages } from '../Languages/Languages';
 import { SectionTitle } from '../sectionTitle/SectionTitle';
 import './information.scss';
 
@@ -6,28 +8,22 @@ export function Info() {
     <div className='infos'>
       <SectionTitle text='Languages' />
 
-      <div className='languages-info'>
-        <span>🇺🇸 EN - Basic</span>
+      <Languages symbol='🇺🇸' language='EN' level='Basic' />
 
-        <span>🇧🇷 PT-BR - Native Speaker</span>
-      </div>
+      <Languages symbol='🇧🇷' language='PT-BR' level='Native Speaker' />
 
       <div className='infos'>
         <SectionTitle text='Education' />
 
-        <div className='educational-info'>
-          <span>
-            🎓 Software Engineer - Unicesumar EAD
-            <br />
-            <small>Bacharelors Dregree - PURSUING</small>
-          </span>
-        </div>
-        <div className='educational-info'>
-          <span>
-            🎓Computer Engineer - UNIVESP <br />
-            <small>Bacharelors Dregree - PURSUING</small>
-          </span>
-        </div>
+        <Education
+          degree='Software Engineer - Unicesumar EAD'
+          state='Bacharelors Dregree - PURSUING'
+        />
+
+        <Education
+          degree='Computer Engineer - UNIVESP'
+          state='Bacharelors Dregree - PURSUING'
+        />
       </div>
     </div>
   );

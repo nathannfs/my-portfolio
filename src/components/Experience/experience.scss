@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 500px;
 
-  grid-area: 'experience';
+  grid-area: experience;
 
   p {
     font-weight: 300;

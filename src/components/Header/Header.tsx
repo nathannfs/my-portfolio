@@ -6,7 +6,7 @@ export function Header() {
   return (
     <div className='header'>
       <div>
-        <h1>Hello, I'm Nathan!</h1>
+        <h1>Hello, I'm Nathan!👋</h1>
 
         <h2>Software Engineer</h2>
       </div>

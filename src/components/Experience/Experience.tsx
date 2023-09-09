@@ -1,4 +1,7 @@
 import { SectionTitle } from '../sectionTitle/SectionTitle';
+import { Skill } from '../Skill/Skill';
+
+import Image from 'next/image';
 
 import './experience.scss';
 
@@ -12,7 +15,12 @@ export function Experience() {
         personal projects.
       </p>
 
-      <div className='experience-time'></div>
+      <div className='experience-time'>
+        <Skill image='/react.png' measure={1} years='1 years' />
+        <Skill image='/ts.png' measure={1} years='1 years' />
+        <Skill image='/js.png' measure={1} years='1 years' />
+        <Skill image='/node.png' measure={1} years='1 years' />
+      </div>
     </div>
   );
 }

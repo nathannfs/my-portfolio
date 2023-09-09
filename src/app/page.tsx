@@ -2,7 +2,7 @@ import { Header } from '@/components/Header/Header';
 import { Experience } from '@/components/Experience/Experience';
 import { Info } from '@/components/Information/Information';
 
-import '../styles/home.scss';
+import './styles/home.scss';
 import { EmailIcon } from '@/components/icons/email-icon';
 import { SocialBtns } from '@/components/SocialBtns/SocialBtns';
 

@@ -12,19 +12,20 @@ export function Info() {
         <span>🇧🇷 PT-BR - Native Speaker</span>
       </div>
 
-      <div>
+      <div className='infos'>
         <SectionTitle text='Education' />
 
         <div className='educational-info'>
-          <span>🎓</span>
           <span>
-            Software Engineer - Unicesumar EAD - Bacharelors Dregree - PURSUING
+            🎓 Software Engineer - Unicesumar EAD
+            <br />
+            <small>Bacharelors Dregree - PURSUING</small>
           </span>
-
-          <br />
-          <span>🎓</span>
+        </div>
+        <div className='educational-info'>
           <span>
-            Computer Engineer - UNIVESP - Bacharelors Dregree - PURSUING
+            🎓Computer Engineer - UNIVESP <br />
+            <small>Bacharelors Dregree - PURSUING</small>
           </span>
         </div>
       </div>

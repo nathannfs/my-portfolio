@@ -11,7 +11,11 @@ export function Education(props: EducationProps) {
   return (
     <div className='educational-info'>
       <span>
-        🎓 {props.degree} - {props.local}
+        🎓 {props.degree}
+        <br />
+        <span>
+        {props.local}
+        </span>
         <br />
         <small>
           {props.level} - {props.state}

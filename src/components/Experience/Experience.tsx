@@ -11,8 +11,7 @@ export function Experience() {
       <SectionTitle text='Experience' />
 
       <p>
-        I am a WEB development student, currently I only have experience from
-        personal projects.
+      Currently I only have experience with personal projects and I would like to expand my knowledge with an opportunity, and consequently help the company in what I am and develop in the area as a developer.
       </p>
 
       <div className='experience-time'>

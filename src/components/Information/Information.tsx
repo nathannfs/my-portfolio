@@ -16,14 +16,13 @@ export function Info() {
         <SectionTitle text='Education' />
 
         <Education
-          degree='Software Engineer'
-          local='Unicesumar EAD'
-          level='Bachelor Dregree'
-          state='PURSUING'
-        />
+          degree='Industrial Mechatronics'
+          local='Fatec - Sertãozinho'
+          level='Technologist Dregree'
+          state='COMPLETED'/>
         <Education
-          degree='Computer Engineer'
-          local='UNIVESP'
+          degree='information of Tecnology'
+          local='UNIVESP EAD'
           level='Bachelor Dregree'
           state='PURSUING'
         />
